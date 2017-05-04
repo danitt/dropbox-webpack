@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
   entry: './index.js',
@@ -21,5 +22,8 @@ module.exports = {
         loaders: ['babel-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({ 'global.GENTLY': false })
+  ]
 }
