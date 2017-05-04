@@ -1,0 +1,16 @@
+{
+  "name": "dropbox-webpack-poc",
+  "author": "Danitt <dan@danitt.com>",
+  "version": "0.0.1",
+  "private": true,
+  "create": false,
+  "main": "index.js",
+  "repository": {},
+  "license": "PRIVATE",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "dropbox": "^2.5.3",
+    "webpack": "^2.4.1"
+  }
+}
